@@ -114,12 +114,13 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Banner from './Banner'
-
+import Form from './Form'
 const home = () => {
   return (
     <div>
       <Navbar/>
       <Banner/>
+      <Form/>
       <Footer/>
     </div>
   )
