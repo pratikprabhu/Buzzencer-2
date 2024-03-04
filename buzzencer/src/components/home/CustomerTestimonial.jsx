@@ -61,6 +61,7 @@ const CustomerTestimonials = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Image */}
+          {/* <figure></figure> */}
           <div>
             <img src="/images/sliderpic.webp" alt="Customer" className="w-full h-auto rounded-lg shadow-lg" />
           </div>
