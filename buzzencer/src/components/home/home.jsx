@@ -115,11 +115,17 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import Banner from './Banner'
 import Form from './Form'
+import Section from './Section'
+import WhatWeDo from './WhatWeDo'
+import CustomerTestimonials from './CustomerTestimonial'
 const home = () => {
   return (
     <div>
       <Navbar/>
       <Banner/>
+      <Section/>
+      <WhatWeDo />
+      <CustomerTestimonials/>
       <Form/>
       <Footer/>
     </div>
