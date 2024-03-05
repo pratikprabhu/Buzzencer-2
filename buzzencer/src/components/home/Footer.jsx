@@ -182,14 +182,29 @@ import { LuFacebook } from "react-icons/lu";
 import { CiTwitter } from "react-icons/ci";
 import { IoLogoInstagram } from "react-icons/io";
 import { SlSocialLinkedin } from "react-icons/sl";
+import Wave from 'react-wavify'
+
 
 const Footer = () => {
   return (
+    <>
+    <Wave fill='#f7f7fd'
+        paused={false}
+        style={{ display: 'flex' }}
+        options={{
+          height: 20,
+          amplitude: 20,
+          speed: 0.15,
+          points: 4
+        }}
+  />
+    
     <footer className="relative bg-[#f7f7fd] text-black py-4">
       {/* SVG
       <svg xmlns="wave.svg" viewBox="0 0 1440 320" className="absolute top-0 left-0 w-full z-0">
         <path fill="#f7f7fd" fillOpacity="1" d="M0,128L60,117.3C120,107,240,85,360,96C480,107,600,149,720,181.3C840,213,960,235,1080,224C1200,213,1320,171,1380,149.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
       </svg> */}
+      
       
       <div className="container mx-auto text-center relative z-10">
         <div className="grid grid-cols-4 gap-4">
@@ -244,6 +259,7 @@ const Footer = () => {
             </div>
           </div>
     </footer>
+    </>
   );
 };
 

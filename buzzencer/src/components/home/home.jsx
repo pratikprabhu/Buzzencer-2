@@ -118,6 +118,7 @@ import Form from './Form'
 import Section from './Section'
 import WhatWeDo from './WhatWeDo'
 import CustomerTestimonials from './CustomerTestimonial'
+import HowBuzzencerWorks from './HowBuzzencerWorks'
 const home = () => {
   return (
     <div>
@@ -125,6 +126,7 @@ const home = () => {
       <Banner/>
       <Section/>
       <WhatWeDo />
+      <HowBuzzencerWorks/>
       <CustomerTestimonials/>
       <Form/>
       <Footer/>
